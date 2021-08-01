@@ -1,3 +1,13 @@
+<h1 align="center">
+    <p style="margin: 0;">
+        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" height="60">
+    </p>
+    <strong>Curso de React </strong>
+    <p>
+        <a target="_blank" href="https://www.youtube.com/c/dicasparadevs/featured"><i>DicasParaDevs</i></a>
+    </p>
+</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
