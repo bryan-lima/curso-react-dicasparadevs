@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Task = ({task}) => {
-    return <h1>{task.title}</h1>;
-}
- 
+import "./Task.css";
+
+const Task = ({ task }) => {
+  return <div className="task-container">{task.title}</div>;
+};
+
 export default Task;
