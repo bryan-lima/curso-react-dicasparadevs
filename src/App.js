@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import "./App.css";
 
+import Tasks from "./components/Tasks";
+
 const App = () => {
   const [tasks, setTasks] = useState([
 	  {
@@ -18,7 +20,9 @@ const App = () => {
 
   return (
     <>
-      <div className="container"></div>
+      <div className="container">
+		  <Tasks />
+	  </div>
     </>
   );
 };
