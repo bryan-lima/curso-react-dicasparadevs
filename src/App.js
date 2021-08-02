@@ -15,13 +15,13 @@ const App = () => {
 		  id: '2',
 		  title: 'Ler livros',
 		  completed: true,
-	  }
+	  },
 	]);
 
   return (
     <>
       <div className="container">
-		  <Tasks />
+		  <Tasks tasks={tasks} />
 	  </div>
     </>
   );
