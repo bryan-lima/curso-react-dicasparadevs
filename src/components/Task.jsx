@@ -23,9 +23,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
 				>
 					<CgClose />
 				</button>
-				<button
-					className="see-task-details-button"
-				>
+				<button className="see-task-details-button">
 					<CgInfo />
 				</button>
 			</div>
