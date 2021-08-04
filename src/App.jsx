@@ -50,7 +50,7 @@ const App = () => {
 	};
 
 	const handleTaskDeletion = (taskID) => {
-		const newTasks = tasks.filter((task) => task.id != taskID);
+		const newTasks = tasks.filter((task) => task.id !== taskID);
 
 		setTasks(newTasks);
 	};
